@@ -20,11 +20,12 @@ post '/visit' do
 	#@username.capitalize!
 	@phone = params[:phone]
 	@datetime = params[:datetime]
+	@barber = params[:barber]
 
 	@message = "#{@username}, мы Вас записали!"
 
 	f = File.open './public/users.txt', 'a'
-	f.write "User: #{@username}, Phone: #{@phone}, Date and time: #{@datetime}\n"
+	f.write "User: #{@username}, Phone: #{@phone}, Date and time: #{@datetime}, Barber: #{@barber}\n"
 	f.close
 
 	erb :visit
@@ -40,9 +41,9 @@ post '/contacts' do
 	
 	@message2 = "Отправленно"
 
-	f = File.open './public/contacts.txt', 'a'
-	f.write "E-mail: #{@e_mail}, SMS: #{@text}\n"
-	f.close
+	d = File.open './public/contacts.txt', 'a'
+	d.write "E-mail: #{@e_mail}, SMS: #{@text}\n"
+	d.close
 
 	erb :contacts
 end	
