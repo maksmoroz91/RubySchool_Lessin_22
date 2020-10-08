@@ -1,1 +1,17 @@
 <h2>Contacts</h2>
+
+<div class="alert alert-warning" role="alert">
+	<p><%= @message2 %></p>
+</div>
+
+<form action="/visit" method="POST">
+  
+  <div class="form-group"> 
+    <label>E-mail</label>
+    <input name="e_mail" type="text" class="form-control" placeholder="Введите ваш E-mail">
+  </div>
+  <p><b>Сообщение</b></p>
+  <p><textarea rows="10" cols="45" name="text"></textarea></p>
+  <p><input type="submit" value="Отправить"></p>
+
+</form>
