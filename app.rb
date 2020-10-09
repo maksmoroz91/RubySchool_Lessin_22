@@ -17,7 +17,7 @@ end
 
 post '/visit' do
 	@username = params[:username]
-	#@username.capitalize!
+	@username.capitalize!
 	@phone = params[:phone]
 	@datetime = params[:datetime]
 	@barber = params[:barber]
