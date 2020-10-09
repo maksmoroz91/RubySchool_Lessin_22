@@ -7,11 +7,17 @@
 <form action="/contacts" method="POST">
   
   <div class="form-group"> 
-    <label>E-mail</label>
-    <input name="e_mail" type="text" class="form-control" placeholder="Введите ваш E-mail">
+    <label id="aaa">E-mail</label>
+    <input name="e_mail" type="text" class="form-control ccc" placeholder="Введите ваш E-mail">
   </div>
   <p><b>Сообщение</b></p>
   <p><textarea rows="10" cols="45" name="text"></textarea></p>
-  <p><input type="submit" value="Отправить"></p>
+  <p><input id="bbb" type="submit" value="Отправить"></p>
 
 </form>
+
+<script type="text/javascript">
+$('#aaa').css('background-color', 'yellow');  // записывает имя 'aaa' в id='' там где хотим..
+$('#bbb').css('background-color', 'pink');
+$('.ccc').css('background-color', 'green');
+</script>
