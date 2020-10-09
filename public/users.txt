@@ -18,3 +18,5 @@ User: dlkontakta7@gmail.com, Phone: 1234, Date and time: 24 октября в 14
 User: dlkontakta7@gmail.com, Phone: 1234, Date and time: 24 октября в 14:00, Barber: Gus Fring
 User: dlkontakta7@gmail.com, Phone: 1234, Date and time: 24 октября в 14:00, Barber: Gus Fring
 User: Максим, Phone: +79186789359, Date and time: 24 октября в 14:00, Barber: Jessie Pinkman, Color: #dc2127
+User: , Phone: , Date and time: , Barber: Walter White, Color: #7bd148
+User: , Phone: , Date and time: , Barber: Walter White, Color: #7bd148
